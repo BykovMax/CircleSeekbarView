@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleSeekbarView">
+        <attr name="foregroundProgressColor" format="color" />
+        <attr name="backgroundProgressColor" format="color" />
+        <attr name="toggleColor" format="color" />
+        <attr name="toggleShadow" format="dimension" />
+        <attr name="toggleRadius" format="dimension" />
+        <attr name="lineThickness" format="dimension" />
+        <attr name="toggleInitValue" format="float" />
+        <attr name="toggleAdditionalTouchRadius" format="dimension" />
+    </declare-styleable>
+</resources>
