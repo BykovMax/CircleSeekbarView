@@ -136,11 +136,12 @@ class CircleSeekbarView @JvmOverloads constructor(
     }
 
     private fun updateAngleByTouch(event: MotionEvent) {
-        toggleDelegate.filterToggleTouch(
+        val toggleTouch = toggleDelegate.filterToggleTouch(
             event.toPoint(),
             isMove = event.action == MotionEvent.ACTION_MOVE,
             isDown = event.action == MotionEvent.ACTION_DOWN
-        )?.let { touch ->
+        )
+        toggleTouch?.let { touch ->
             val inputAngel = getAngle(touch)
             angleDelegate.correct(inputAngel)
                 .also { angel ->
@@ -149,6 +150,7 @@ class CircleSeekbarView @JvmOverloads constructor(
                     invalidate()
                 }
         }
+        parent.requestDisallowInterceptTouchEvent(toggleTouch != null)
     }
 
 
