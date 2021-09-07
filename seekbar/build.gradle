@@ -3,8 +3,8 @@ plugins {
     id 'kotlin-android'
     id 'maven-publish'
 }
-group = 'max.bykov'
-version = '1.0'
+//group = 'max.bykov'
+//version = '1.0'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -49,7 +49,7 @@ afterEvaluate {
                 from components.release
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'max.bykov'
-                artifactId = 'seekbar'
+                artifactId = 'CircularSeekbar'
                 version = '1.0'
             }
         }
