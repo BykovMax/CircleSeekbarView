@@ -37,7 +37,6 @@ android {
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.2.0'
-    implementation 'com.github.dcendents.android-maven:2.1'
     testImplementation 'junit:junit:4.12'
 
 }
