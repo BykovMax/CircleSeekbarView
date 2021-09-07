@@ -1,2 +1,3 @@
 rootProject.name='MainProgress'
 include ':app'
+include ':seekbar'

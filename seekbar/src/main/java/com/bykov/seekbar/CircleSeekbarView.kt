@@ -1,17 +1,12 @@
-package com.bykov.mainprogress
+package com.bykov.seekbar
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.Resources
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.Point
-import android.graphics.RectF
+import android.graphics.*
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
-import com.example.mainprogress.R
 import kotlin.math.atan2
 import kotlin.math.max
 

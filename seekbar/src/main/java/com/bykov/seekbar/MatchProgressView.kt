@@ -1,4 +1,4 @@
-package com.bykov.mainprogress
+package com.bykov.seekbar
 
 import android.content.Context
 import android.graphics.Canvas
