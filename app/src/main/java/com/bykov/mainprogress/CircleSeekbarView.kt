@@ -1,4 +1,4 @@
-package com.example.mainprogress
+package com.bykov.mainprogress
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -11,6 +11,7 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
+import com.example.mainprogress.R
 import kotlin.math.atan2
 import kotlin.math.max
 

@@ -1,4 +1,4 @@
-package com.example.mainprogress
+package com.bykov.mainprogress
 
 import org.junit.Test
 

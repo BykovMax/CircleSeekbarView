@@ -1,4 +1,4 @@
-package com.example.mainprogress;
+package com.bykov.mainprogress;
 
 // copy from https://github.com/yuriy-budiyev/circular-progress-bar/blob/master/src/main/java/com/budiyev/android
 // /circularprogressbar/CircularProgressBar.java

@@ -1,4 +1,4 @@
-package com.example.mainprogress
+package com.bykov.mainprogress
 
 import android.graphics.Point
 import kotlin.math.cos
