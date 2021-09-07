@@ -1,3 +1,5 @@
+![Release](https://jitpack.io/v/BykovMax/CircleSeekbarView.svg)
+
 
     repositories {
       //your repos
