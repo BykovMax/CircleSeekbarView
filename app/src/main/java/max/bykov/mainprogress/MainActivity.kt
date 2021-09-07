@@ -1,4 +1,4 @@
-package com.bykov.mainprogress
+package max.bykov.mainprogress
 
 import android.os.Bundle
 import android.util.Log

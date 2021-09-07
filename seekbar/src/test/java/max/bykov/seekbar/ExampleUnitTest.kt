@@ -1,4 +1,4 @@
-package com.bykov.seekbar
+package max.bykov.seekbar
 
 import org.junit.Test
 

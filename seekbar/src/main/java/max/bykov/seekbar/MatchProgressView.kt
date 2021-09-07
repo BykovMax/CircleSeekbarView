@@ -1,4 +1,4 @@
-package com.bykov.seekbar
+package max.bykov.seekbar
 
 import android.content.Context
 import android.graphics.Canvas

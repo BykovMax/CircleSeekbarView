@@ -1,4 +1,4 @@
-package com.bykov.seekbar;
+package max.bykov.seekbar;
 
 // copy from https://github.com/yuriy-budiyev/circular-progress-bar/blob/master/src/main/java/com/budiyev/android
 // /circularprogressbar/CircularProgressBar.java
